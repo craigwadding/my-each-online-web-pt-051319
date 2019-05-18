@@ -1,10 +1,10 @@
-def my_each(array)
+def my_each(arr)
   i = 0 
-  while i < array. 
-  yield(array[i]) 
-  i += 1 
+  while i < arr 
+    yield(arr[i]) 
+    i += 1 
   end 
-  array 
+  arr 
   # put argument(s) here
   # code here
 end
